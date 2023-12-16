@@ -4,9 +4,13 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
- return (
+  return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header style={{ background: "yellowgreen", padding: "1rem" }}>layout header</header>
+        {children}
+        <footer style={{ background: "lightcyan", padding: "1rem" }}>layout footer</footer>
+      </body>
     </html>
   )
 }
