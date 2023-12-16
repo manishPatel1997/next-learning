@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Login() {
+export default function Welcome() {
   return (
-    <div>Login</div>
+    <div>start learning next js , thank you</div>
   )
 }
