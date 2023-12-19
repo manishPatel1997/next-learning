@@ -7,9 +7,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header style={{ background: "yellowgreen", padding: "1rem" }}>layout header</header>
+        {/* <header style={{ background: "yellowgreen", padding: "1rem" }}>layout header</header> */}
         {children}
-        <footer style={{ background: "lightcyan", padding: "1rem" }}>layout footer</footer>
+        {/* <footer style={{ background: "lightcyan", padding: "1rem" }}>layout footer</footer> */}
       </body>
     </html>
   )
